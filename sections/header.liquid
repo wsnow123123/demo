@@ -198,7 +198,7 @@
           {% comment %} <span class="h2">{{ shop.name }}</span> {% endcomment %}
           {{
             settings.logo
-            | image_url: width: 600
+            | image_url: width: 600, src: 'https://peoniafloraldesign.com/cdn/shop/files/logo-peonia-floral-design.jpg'
             | image_tag:
               class: 'header__heading-logo motion-reduce',
               widths: widths,
@@ -206,8 +206,7 @@
               width: settings.logo_width,
               alt: logo_alt,
               sizes: sizes,
-              preload: true,
-              src: 'https://peoniafloraldesign.com/cdn/shop/files/logo-peonia-floral-design.jpg'
+              preload: true
           }}
         {%- endif -%}
       </a>
