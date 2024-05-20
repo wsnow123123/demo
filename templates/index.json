@@ -1,43 +1,58 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "slideshow_BMBTRD": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide_WLHibg": {
+          "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/slide1.png",
             "heading": "Unleash the Magic of Flowers",
-            "heading_size": "h0"
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
-        "button": {
-          "type": "buttons",
+        "slide_qaUfKd": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": true
+            "image": "shopify:\/\/shop_images\/slide2.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "slide_WLHibg",
+        "slide_qaUfKd"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/slide1.png",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-3",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "image_behavior": "none",
-        "mobile_content_alignment": "right",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "rich_text": {
@@ -206,7 +221,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "slideshow_BMBTRD",
     "rich_text",
     "featured_collection",
     "collage",
