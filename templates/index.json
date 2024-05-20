@@ -35,8 +35,8 @@
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "right",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
