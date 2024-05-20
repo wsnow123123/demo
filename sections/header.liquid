@@ -195,7 +195,20 @@
             }}
           </div>
         {%- else -%}
-          <span class="h2">{{ shop.name }}</span>
+          {% comment %} <span class="h2">{{ shop.name }}</span> {% endcomment %}
+          {{
+            settings.logo
+            | image_url: width: 600
+            | image_tag:
+              class: 'header__heading-logo motion-reduce',
+              widths: widths,
+              height: logo_height,
+              width: settings.logo_width,
+              alt: logo_alt,
+              sizes: sizes,
+              preload: true,
+              src: 'https://peoniafloraldesign.com/cdn/shop/files/logo-peonia-floral-design.jpg'
+          }}
         {%- endif -%}
       </a>
       {%- if request.page_type == 'index' -%}
